@@ -302,7 +302,8 @@ function serviceHero(svc) {
   return `<section class="breadcrumb-bar">${""}</section>
   ${breadcrumb([{ href: "/", label: "Home" }, { href: "/services/", label: "Services" }, { label: svc.name }])}
   <section class="page-hero">
-    <div class="container page-hero-panel with-form">
+    <div class="container">
+    <div class="page-hero-panel with-form">
       <div class="page-hero-text">
         ${miniTrust()}
         <h1>${svc.name} Contractor in Metro Detroit</h1>
@@ -313,6 +314,7 @@ function serviceHero(svc) {
         </div>
       </div>
       ${leadFormEmbed()}
+    </div>
     </div>
   </section>`;
 }
@@ -390,13 +392,15 @@ function buildServicesHub() {
   const body = `
   ${breadcrumb([{ href: "/", label: "Home" }, { label: "Services" }])}
   <section class="page-hero">
-    <div class="container page-hero-panel with-form">
+    <div class="container">
+    <div class="page-hero-panel with-form">
       <div class="page-hero-text">
         ${miniTrust()}
         <h1>Insulation Services</h1>
         <p class="tagline">EVERYTHING WE INSTALL, REMOVE AND REPAIR ACROSS RESIDENTIAL AND COMMERCIAL PROPERTY.</p>
       </div>
       ${leadFormEmbed()}
+    </div>
     </div>
   </section>
 
@@ -450,7 +454,8 @@ function buildLocationPage(loc) {
   const body = `
   ${breadcrumb([{ href: "/", label: "Home" }, { href: "/locations/", label: "Locations" }, { label: loc.name }])}
   <section class="page-hero">
-    <div class="container page-hero-panel with-form">
+    <div class="container">
+    <div class="page-hero-panel with-form">
       <div class="page-hero-text">
         ${miniTrust()}
         <h1>Insulation Contractor in ${loc.name}</h1>
@@ -461,6 +466,7 @@ function buildLocationPage(loc) {
         </div>
       </div>
       ${leadFormEmbed()}
+    </div>
     </div>
   </section>
 
@@ -516,13 +522,15 @@ function buildLocationsHub() {
   const body = `
   ${breadcrumb([{ href: "/", label: "Home" }, { label: "Locations" }])}
   <section class="page-hero">
-    <div class="container page-hero-panel with-form">
+    <div class="container">
+    <div class="page-hero-panel with-form">
       <div class="page-hero-text">
         ${miniTrust()}
         <h1>Where We Work</h1>
         <p class="tagline">SPRAY FOAM AND INSULATION INSTALLED ACROSS METRO DETROIT.</p>
       </div>
       ${leadFormEmbed()}
+    </div>
     </div>
   </section>
 
@@ -561,7 +569,8 @@ function buildComboPage(loc, svc) {
   const body = `
   ${breadcrumb([{ href: "/", label: "Home" }, { href: "/locations/", label: "Locations" }, { href: `/locations/${loc.slug}/`, label: loc.name }, { label: svc.name }])}
   <section class="page-hero">
-    <div class="container page-hero-panel with-form">
+    <div class="container">
+    <div class="page-hero-panel with-form">
       <div class="page-hero-text">
         ${miniTrust()}
         <h1>${svc.name} in ${loc.name}</h1>
@@ -572,6 +581,7 @@ function buildComboPage(loc, svc) {
         </div>
       </div>
       ${leadFormEmbed()}
+    </div>
     </div>
   </section>
 
@@ -649,7 +659,8 @@ function buildComboPage(loc, svc) {
 function buildHomePage() {
   const body = `
   <section class="hero">
-    <div class="container hero-panel">
+    <div class="container">
+    <div class="hero-panel">
       <div class="hero-left">
         <p class="eyebrow eyebrow-light">Your Insulation Team</p>
         <h1>Spray Foam &amp; Insulation<br>Contractors in<br>Metro Detroit</h1>
@@ -661,6 +672,7 @@ function buildHomePage() {
           <a href="${PHONE_TEL}" class="btn btn-pill btn-outline-light">${PHONE_DISPLAY}</a>
         </div>
       </div>
+    </div>
     </div>
   </section>
 
@@ -834,8 +846,10 @@ function buildLegalPage(title, slug, paragraphs) {
   const body = `
   ${breadcrumb([{ href: "/", label: "Home" }, { label: title }])}
   <section class="page-hero">
-    <div class="container page-hero-panel">
+    <div class="container">
+    <div class="page-hero-panel">
       <h1>${title}</h1>
+    </div>
     </div>
   </section>
   <section class="split-section">
