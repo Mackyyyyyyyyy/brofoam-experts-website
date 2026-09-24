@@ -225,7 +225,7 @@ p{margin:0;}
 /* ===== INNER PAGE HERO ===== */
 .page-hero{background:var(--light-bg);padding:24px 0 40px;}
 .page-hero-panel{background:var(--dark);border-radius:var(--radius);padding:48px;color:#fff;}
-.page-hero-panel.with-form{display:grid;grid-template-columns:1.15fr 0.85fr;gap:40px;align-items:start;}
+.page-hero-panel.with-form{display:grid;grid-template-columns:1.15fr 0.85fr;gap:40px;align-items:center;}
 .mini-trust{display:flex;gap:20px;flex-wrap:wrap;margin-bottom:22px;font-size:12.5px;color:rgba(255,255,255,0.55);font-weight:600;}
 .mini-trust span{display:flex;align-items:center;gap:6px;}
 .mini-trust span::before{content:"";width:5px;height:5px;border-radius:50%;background:var(--accent);display:inline-block;}
