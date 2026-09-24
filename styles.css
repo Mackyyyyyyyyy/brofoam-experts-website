@@ -427,5 +427,6 @@ p{margin:0;}
 }
 @media(max-width:520px){
   .footer-inner{grid-template-columns:1fr;}
-  .filter-tabs{gap:18px;justify-content:flex-start;overflow-x:auto;padding-bottom:6px;}
+  .filter-tabs{gap:18px;justify-content:flex-start;overflow-x:auto;flex-wrap:nowrap;padding-bottom:6px;-webkit-overflow-scrolling:touch;}
+  .filter-tab{white-space:nowrap;}
 }
