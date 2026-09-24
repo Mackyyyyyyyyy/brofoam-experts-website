@@ -251,7 +251,8 @@ p{margin:0;}
 
 /* ===== BENEFIT CARDS ===== */
 .benefits-section{background:var(--white);padding:80px 0;}
-.benefit-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:16px;}
+.benefits-section > .container > .eyebrow,.benefits-section > .container > h2{text-align:center;}
+.benefit-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:16px;text-align:left;}
 .benefit-card{background:var(--light-bg);border-radius:var(--radius);padding:28px;}
 .benefit-card .check{
   width:34px;height:34px;border-radius:9px;background:var(--dark);
@@ -264,7 +265,8 @@ p{margin:0;}
 
 /* ===== CHOOSE US GRID ===== */
 .choose-section{background:var(--light-bg);padding:80px 0;}
-.choose-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:16px;}
+.choose-section > .container > .eyebrow,.choose-section > .container > h2{text-align:center;}
+.choose-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:16px;text-align:left;}
 .choose-card h3{font-size:16.5px;margin-bottom:10px;}
 .choose-card p{font-size:14px;line-height:1.65;color:#3a3d44;}
 .choose-section .cta-wrap{margin-top:40px;text-align:center;}
@@ -276,7 +278,8 @@ p{margin:0;}
 
 /* ===== CROSS-LINK CARD GRID (services in area / other services) ===== */
 .crosslink-section{background:var(--white);padding:80px 0;}
-.crosslink-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:16px;}
+.crosslink-section > .container > .eyebrow,.crosslink-section > .container > h2{text-align:center;}
+.crosslink-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:16px;text-align:left;}
 .crosslink-card{background:var(--light-bg);border-radius:14px;padding:22px;}
 .crosslink-card h3{font-size:15.5px;margin-bottom:8px;}
 .crosslink-card p{font-size:13.5px;line-height:1.6;color:#3a3d44;margin-bottom:14px;}
@@ -285,7 +288,8 @@ p{margin:0;}
 
 /* ===== SERVICE AREA CHIP GRID ===== */
 .area-section{background:var(--light-bg);padding:80px 0;}
-.area-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:16px;}
+.area-section > .container > .eyebrow,.area-section > .container > h2{text-align:center;}
+.area-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:16px;text-align:left;}
 .area-chip{
   background:var(--white);border-radius:14px;padding:18px 20px;
   display:flex;align-items:center;justify-content:space-between;gap:10px;
@@ -296,7 +300,8 @@ p{margin:0;}
 
 /* ===== LOCATIONS HUB GRID ===== */
 .locations-section{background:var(--white);padding:80px 0;}
-.locations-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:16px;}
+.locations-section > .container > .eyebrow,.locations-section > .container > h2{text-align:center;}
+.locations-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:16px;text-align:left;}
 .location-card{background:var(--light-bg);border-radius:var(--radius);padding:26px;}
 .location-card .county-tag{display:block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);margin-bottom:10px;}
 .location-card h3{font-size:19px;margin-bottom:10px;}
