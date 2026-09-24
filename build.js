@@ -282,7 +282,19 @@ function leadFormEmbed() {
 
         >
 </iframe>
-<script src="https://link.webleadsystems.net/js/form_embed.js"></script>`;
+<script src="https://link.webleadsystems.net/js/form_embed.js"></script>
+<script>
+(function(){
+  var el = document.getElementById('inline-ZAeDaQn37up94XxrCCZD');
+  if(!el) return;
+  function noScroll(){
+    el.setAttribute('scrolling','no');
+    el.style.setProperty('overflow','hidden','important');
+  }
+  noScroll();
+  new MutationObserver(noScroll).observe(el, {attributes:true, attributeFilter:['style','scrolling']});
+})();
+</script>`;
 }
 
 // ===================== SERVICE PAGE =====================
