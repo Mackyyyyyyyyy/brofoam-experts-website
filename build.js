@@ -676,10 +676,13 @@ function buildHomePage() {
   </section>
 
   <section class="story" id="about">
-    <div class="container story-inner">
-      <p class="eyebrow">BroFoam Experts Story</p>
-      <h2>Expertise Meets Dedication</h2>
-      <p class="story-copy">BroFoam Experts is a family-owned and operated insulation contractor serving Metro Detroit. We install insulation that closes the gaps driving your energy bill up, so rooms hold their temperature through the Michigan winter and equipment stops working overtime to keep up. We handle residential and commercial work for both existing structures and <span class="underline">new construction</span>, from a single room to a full building envelope.</p>
+    <div class="container split-grid split-grid-reverse">
+      <div class="split-content">
+        <p class="eyebrow">BroFoam Experts Story</p>
+        <h2>Expertise Meets Dedication</h2>
+        <p>BroFoam Experts is a family-owned and operated insulation contractor serving Metro Detroit. We install insulation that closes the gaps driving your energy bill up, so rooms hold their temperature through the Michigan winter and equipment stops working overtime to keep up. We handle residential and commercial work for both existing structures and <span class="underline">new construction</span>, from a single room to a full building envelope.</p>
+      </div>
+      <div class="split-img"><img src="/images/residential-framing.jpg" alt="BroFoam Experts technician applying spray foam insulation"></div>
     </div>
   </section>
 
